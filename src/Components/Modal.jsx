@@ -179,7 +179,7 @@ const Modal = () => {
                       24 words
                     </button>
                   </div>
-                  <div className="grid lg:grid-cols-3 grid-cols-1 gap-3 mt-4 p-4 rounded-2xl relative">
+                  <div className="grid lg:grid-cols-3 grid-cols-2 gap-3  lg:p-4 rounded-2xl relative">
                     {segments?.map((s, key) => (
                       <div key={key}>
                         {/* <label className="text-slate-400">{key + 1}.</label> */}
