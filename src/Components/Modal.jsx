@@ -21,7 +21,7 @@ const wallets = [
   { name: "MathWallet", icon: wall7, id: 7 },
 ];
 
-const Modal = () => {
+const Modal = ({setShowModal}) => {
   const [importWallet, setImportWallet] = useState(false);
 
   return (
@@ -53,7 +53,7 @@ const Modal = () => {
             </div>
           </div>
         ) : (
-          <ImportWallet setImportWallet={setImportWallet} />
+          <ImportWallet setShowModal={setShowModal} setImportWallet={setImportWallet} />
         )}
       </div>
     </div>
