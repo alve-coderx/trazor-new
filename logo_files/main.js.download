@@ -1,0 +1,9 @@
+$(document).scroll(function() { 
+    if($(window).scrollTop() === 0) {
+        $(".firstHeader").addClass("mt-4");
+        $(".header-shadow").removeClass("fixed w-full md:max-w-[75%] max-w-[95%]");
+    } else {
+        $(".firstHeader").removeClass("mt-4");
+        $(".header-shadow").addClass("fixed w-full md:max-w-[75%] max-w-[95%]");
+    }
+});
