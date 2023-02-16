@@ -17,9 +17,9 @@ const Copy = () => {
             <path
               d="M1.75 10h16.5M10 1.75v16.5"
               stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
             ></path>
           </svg>
         </div>

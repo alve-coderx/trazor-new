@@ -32,9 +32,9 @@ const Navbar = () => {
                 <path
                   d="m12.667 5.333-5 5-5-5"
                   stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   fill="transparent"
                 ></path>
               </svg>
@@ -69,9 +69,9 @@ const Navbar = () => {
                 <path
                   d="m12.667 5.333-5 5-5-5"
                   stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   fill="transparent"
                 ></path>
               </svg>
@@ -93,17 +93,17 @@ const Navbar = () => {
             >
               <path
                 stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
                 d="M7 12h20"
               ></path>
               <path
                 className="bottom-path"
                 stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
                 d="M7 20h20"
               ></path>
             </svg>

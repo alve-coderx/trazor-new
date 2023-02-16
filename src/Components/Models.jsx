@@ -22,14 +22,14 @@ const Models = () => {
           <span className="text-[#0f6148] text-[1.125rem] pb-[0.75rem] flex items-center mono-font">
             <svg className="w-[14px] h-[14px] mr-2" viewBox="0 0 15 10" fill="none">
               <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
+                fillRule="evenodd"
+                clipRule="evenodd"
                 d="m1.0607 4.4375 3 3.5606 3-3.5606 1.0606 1.0607L4.591 9.0285a.75.75 0 0 1-1.0607 0L0 5.4982l1.0607-1.0607Z"
                 fill="currentColor"
               ></path>
               <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
+                fillRule="evenodd"
+                clipRule="evenodd"
                 d="M3.5302.4697A.75.75 0 0 1 4.0606.25h10.2499v1.5h-9.5l-.25 6.5h-1L3.3106 1a.75.75 0 0 1 .2197-.5303Z"
                 fill="currentColor"
               ></path>
@@ -54,23 +54,23 @@ const Models = () => {
                 <path
                   d="M24.5 27c1.933 0 3.5-1.567 3.5-3.5S26.433 20 24.5 20 21 21.567 21 23.5s1.567 3.5 3.5 3.5ZM24.5 20v-5.0125a6.0251 6.0251 0 0 0-1.7625-4.25L18 6"
                   stroke="currentColor"
-                  stroke-width="1.5"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="1.5"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 ></path>
                 <path
                   d="M18 11V6h5M7.5 12c1.933 0 3.5-1.567 3.5-3.5S9.433 5 7.5 5 4 6.567 4 8.5 5.567 12 7.5 12ZM7.5 12v5.0125a6.025 6.025 0 0 0 1.7625 4.25L14 26"
                   stroke="currentColor"
-                  stroke-width="1.5"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="1.5"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 ></path>
                 <path
                   d="M14 21v5H9"
                   stroke="currentColor"
-                  stroke-width="1.5"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="1.5"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 ></path>
               </svg>{" "}
               Compare Trezors
@@ -140,14 +140,14 @@ const Models = () => {
               <img alt="img"
                 src={modelt}
                 className="md:mt-16 cursor-pointer"
-                onclick="window.location.href = '/suite.php'"
+                onClick="window.location.href = '/suite.php'"
               />
             </div>
             <div className="md:basis-1/2">
               <img alt="img"
                 src={modelone}
                 className="cursor-pointer"
-                onclick="window.location.href = '/suite.php'"
+                onClick="window.location.href = '/suite.php'"
               />
             </div>
           </div>
@@ -211,14 +211,14 @@ const Models = () => {
                 fill="none"
               >
                 <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
+                  fillRule="evenodd"
+                  clipRule="evenodd"
                   d="m1.0607 4.4375 3 3.5606 3-3.5606 1.0606 1.0607L4.591 9.0285a.75.75 0 0 1-1.0607 0L0 5.4982l1.0607-1.0607Z"
                   fill="currentColor"
                 ></path>
                 <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
+                  fillRule="evenodd"
+                  clipRule="evenodd"
                   d="M3.5302.4697A.75.75 0 0 1 4.0606.25h10.2499v1.5h-9.5l-.25 6.5h-1L3.3106 1a.75.75 0 0 1 .2197-.5303Z"
                   fill="currentColor"
                 ></path>
