@@ -7,7 +7,7 @@ const Hero = () => {
 
   return (
     <section>
-      <div className="mx-auto md:max-w-[75%] max-w-[95%] md:px-16 md:mt-40">
+      <div className="mx-auto md:max-w-[75%] max-w-[95%] md:px-16 mt-40">
         <div className="md:flex md:flex-row items-center">
           <div className="md:basis-2/4">
             <div>
