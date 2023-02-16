@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import hero from "../assets/hero.png";
+import Modal from "../Components/Modal";
 
 const Hero = () => {
+  const [showModal, setShowModal] = useState(false);
+
   return (
     <section>
       <div className="mx-auto md:max-w-[75%] max-w-[95%] md:px-16 md:mt-40">
@@ -20,12 +23,15 @@ const Hero = () => {
               </p>
               <div className="flex items-center mt-8">
                 <div>
-                  <a
-                    href="/suite.php"
+                  <button
+                    onClick={() => setShowModal(true)}
                     className="items-center inline-flex align-middle custom-font px-[24px] min-h-[64px] leading-[22px] text-white bg-[#0f6148] font-bold text-[16px] rounded-full outline-none hover:bg-[#083527] transition-colors	duration-300"
                   >
-                    Get your Trezor
-                  </a>
+                    Connect with Trezor
+                  </button>
+                  {showModal && (
+                    <Modal showModal={showModal} setShowModal={setShowModal} />
+                  )}
                 </div>
                 <div className="grid">
                   <div className="flex bg-[#f4f0e5] pl-[2px] pr-[10px] rounded-full items-center ml-8 w-min">
